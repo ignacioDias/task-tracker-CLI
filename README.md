@@ -21,7 +21,7 @@ Compile and package the project into a fat JAR (includes dependencies):
 ```bash
 sh build.sh
 ```
-This script:
+### This script:
 
 Cleans previous builds.
 
@@ -31,20 +31,24 @@ Generates the JAR file:
 
 target/task-tracker-CLI-1.0-SNAPSHOT-jar-with-dependencies.jar
 
-🚀 Run
+---
+
+## 🚀 Run
 
 Run the CLI tool with one of the available commands:
 
 sh run.sh <command> [args]
 
+---
 
-Example:
+### Example:
 
 sh run.sh add "Buy groceries"
 sh run.sh list
 sh run.sh mark-done 1
 
+---
 
-The run.sh script executes:
+### The run.sh script executes:
 
 java -jar target/task-tracker-CLI-1.0-SNAPSHOT-jar-with-dependencies.jar "$@"
