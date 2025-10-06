@@ -20,7 +20,7 @@ Compile and package the project into a fat JAR (includes dependencies):
 
 ```bash
 sh build.sh
-
+```
 This script:
 
 Cleans previous builds.
