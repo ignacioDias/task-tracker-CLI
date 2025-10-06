@@ -2,7 +2,7 @@
 
 A simple command-line task manager written in Java.  
 Tasks are stored in a local `tasks.json` file (automatically created in the working directory).
-Project https://roadmap.sh/projects/task-tracker
+<br>Project https://roadmap.sh/projects/task-tracker
 ---
 
 ## ⚙️ Requirements
